@@ -6,6 +6,14 @@
 ## 💡 Objective
 To streamline the data retrieval process for equipment operations and transform it into actionable dashboards without manual intervention. The goal is to improve decision-making regarding equipment deployment, maintenance, and efficiency.
 
+### Flow
+![Screenshot](./assets/1.jpg)
+
+### Dashboard
+![Screenshot](./assets/2.jpg)
+
+---
+
 ## ✨ Features
 - Recurring Power Automate Flow
 - HTTP requests to the Operations API
@@ -15,6 +23,8 @@ To streamline the data retrieval process for equipment operations and transform 
   - Monthly utilization
   - Service log history
   - Hour distribution
+
+---
 
 ## 📊 Power BI Dashboards
 The following dashboards were created from this flow:
@@ -35,6 +45,8 @@ The following dashboards were created from this flow:
 - Filter by equipment/project/date
 - Helps identify usage patterns and over/under-utilization
 
+---
+
 ## ⚙️ Tech Stack
 
 | Category            | Technologies |
@@ -45,6 +57,8 @@ The following dashboards were created from this flow:
 | **Visualization**   | ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black&style=for-the-badge) |
 | **Hosting**         | ![Microsoft Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoft-azure&logoColor=white&style=for-the-badge) |
 
+---
+
 ## 🔄 Flow Logic
 1. **Trigger:** Scheduled to run every few hours
 2. **API Call:** Request equipment and usage logs from Operations API
@@ -52,16 +66,22 @@ The following dashboards were created from this flow:
 4. **DB Insertion:** Store in Azure SQL for Power BI consumption
 5. **Log Sync Results:** Track data imports for audit and reliability
 
+---
+
 ## 📈 Results & Impact
 - 🔄 Replaced manual spreadsheet-based equipment tracking
 - 📊 Delivered real-time visual dashboards to managers and executives
 - ⏱️ Reduced delay from 2–3 days to real-time updates
 - 💰 Enabled smarter allocation and servicing decisions
 
+---
+
 ## 🔐 Security & Monitoring
 - Secured API credentials and access
 - Retry logic in Power Automate
 - Logged actions to ensure auditability
+
+---
 
 ## 🔗 Related Projects
 - `Quattrofy` – Main ERP web application
